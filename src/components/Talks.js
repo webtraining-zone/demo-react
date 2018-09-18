@@ -19,8 +19,8 @@ class Talks extends React.Component {
         {
           talks.map(talk =>
               <div
-                  className="column is-one-quarter-desktop is-one-third-tablet">
-                <div className="b-talk" key={talk.id}>
+                  className="column is-one-quarter-desktop is-one-third-tablet" key={talk.id}>
+                <div className="b-talk">
                   <div className="b-talk__image">
                     <img src={"http://conference.webtraining.fun/" +
                     talk.thumbnail}

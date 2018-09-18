@@ -1,38 +1,40 @@
 .b-talk {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .b-talk__image img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .b-talk {
-    transition: all .3s ease-in-out;
-    box-shadow: 0 0 2rem rgba(0, 0, 255, .1);
-    border-radius: 1rem
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 2rem rgba(0, 0, 255, 0.1);
+  border-radius: 1rem;
 }
 
 .b-talk:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1)
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .b-talk__title-link {
-    color: #000
+  color: #000;
 }
 
 .b-talk__title-text {
-    color: #000;
-    padding: 0 20px;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .b-talk__title-link:hover {
-    color: #23d160
+  color: #23d160;
 }
 
 .b-talk__summary {
-    line-height: 1.5;
-    padding: 0 20px 30px 20px;
+  line-height: 1.5;
+  padding: 0 20px 30px 20px;
 }
